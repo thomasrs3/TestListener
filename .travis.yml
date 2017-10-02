@@ -2,8 +2,4 @@ language: go
 go:
 - 1.9.x
 
-cache:
-- directories:
-  - "$GOPATH/bin"
-
 script: echo "the"
