@@ -2,9 +2,8 @@ language: go
 go:
 - 1.9.x
 
-services:
-- docker
-
 cache:
 - directories:
   - "$GOPATH/bin"
+
+script: echo "the"
